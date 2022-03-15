@@ -1,0 +1,476 @@
+body {
+  font-family: "secfond";
+  margin: 0;
+  padding: : 0;
+}
+
+html{
+ scroll-behavior: smooth;
+}
+
+section[ID]{
+  scroll-margin-top: 195px;
+}
+.nav{
+  color: white;
+  display: inline-table;
+}
+
+.menu > li{
+color: white;
+ position: relative;
+ display: inline-block;
+ margin: 0px;
+}
+
+.menu > li > a{
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+.menu a{
+  font-size: 20px;
+  font-family: "fondfl";
+  color: #0AC4C4;
+}
+.menu li a:hover{
+  transition: all .3s;
+  transform: scale(1.1);
+  color: #0AC4C4;
+}
+
+.submenu{
+  position: absolute;
+  width: 120%;
+  display:none;
+}
+
+.submenu li a{
+  display: block;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu li:hover .submenu{
+  display: block;
+}
+@font-face {
+  font-family: text;
+  src: url("theboldfont.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: secfond;
+  src: url("Magical Holiday.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: fondfl;
+  src: url("AveriaSerif-Italic.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.titular {
+  font-family: "secfond";
+  text-align: center;
+  margin-top: 10px;
+}
+
+h1{
+  font-size: 100px;
+  margin-top: 120px;
+  color: #0AC4C4;
+}
+
+h2{
+  margin-top: -40px;
+  font-size: 40px;
+  margin-bottom: 80px;
+  color: white;
+  font-family: "fondfl";
+}
+
+img{
+  margin-top: 10px;
+}
+header {
+    height: 70vh;
+    background-image: url(edf1.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+.contenedor {
+  max-width: 1920px;
+  width: 90%;
+  margin: auto;
+}
+
+
+/*Sobre mi */
+
+h3 {
+  color: #733959;
+  font-family: "secfond";
+  margin-top: 360px;
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+
+img{
+  width: 350px;
+  height: 350px;
+}
+
+.ContenedorSobreMi{
+  max-width: 1920px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.contenedorParrafoBoton{
+  width: 42%
+}
+
+.contenedorParrafoBoton p {
+  align-content: center;
+  text-align: center;
+  font-size: 20px;
+  font-family: "fondfl";
+}
+
+.lAzul{
+  color: #0AC4C4;
+  font-size: 20px;
+  margin: 0;
+}
+
+}
+.parrafo1{
+  color: black;
+}
+
+.parrafo2{
+  color: black;
+  margin-bottom: 50px;
+
+}
+
+.boton {
+  background-image: url(edf1.jpg);
+  font-family: "secfond";
+  color: white;
+  font-size: 26px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+h5 {
+  color: black;
+  font-family: "fondfl";
+}
+/* Servicios */
+
+.contenedorImg{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedorServicio h4 h5 {
+  text-align: center;
+  color: #733959;
+}
+.contenedorServicio h3{
+  margin-top: 190px;
+}
+.contenedorServicio{
+  font-family: "secfond";
+  justify-content: center;
+}
+.contenedorServicio img{
+  width: 180px;
+  height: 180px;
+}
+
+
+.servicios{
+
+  margin-top: 20px;
+  padding-left: 170px;
+  padding-right: 170px;
+  text-align: center;
+  color: #733959;
+}
+
+.servicios h4{
+  font-size: 30px;
+  color: #0AC4C4;
+}
+
+.servicios h5{
+  margin-top: -30px;
+  font-size: 19.9px;
+  text-decoration-style: dashed;
+}
+
+
+.servicios p{
+  font-size: 16px;
+}
+
+
+/*Portafolio*/
+
+
+span {
+  font-size: 60px;
+  margin: 20px;
+}
+
+.contenedorP{
+    background-image: url(edf1.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.contenedorP img {
+    border-radius: 20px;
+}
+.contenedorP h3{
+  color: white;
+  font-size: 90px;
+  margin-top: 190px;
+}
+
+.owlCarousel {
+  margin-top: 10px;
+  align-items: center;
+}
+.owl-nav{
+
+    margin-top: 40px;
+}
+
+/*Trabajar*/
+.contenedorT h3{
+  margin-top: 190px;
+}
+
+.contenedorTrabajar{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.contenedorTrabajar img {
+ justify-content: space-around;
+  width: 200px;
+  height: 200px;
+
+}
+.contenedorTrabajar h4{
+  font-family: "secfond";
+  margin-top: 90px;
+  font-size: 29px;
+  color:  #0AC4C4;
+
+}
+
+.contenedorTrabajar h5{
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.contenedorSingular{
+  width: 15%
+}
+
+/*Blog*/
+
+#blog {
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+.contenedor-publicaciones {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.publicaciones {
+  width: 30%;
+  box-shadow: 1px 1px 14px #000000;
+  padding-bottom: 20px;
+  box-decoration-break; background-image: url(2edf1.jpg);
+}
+
+#blog img{
+  width: 100%;
+}
+#blog h4 {
+
+  font-size: 23px;
+  margin: 0;
+  padding: 20px;
+  color: #733959;
+}
+
+#blog p {
+  margin-top: 1px;
+  font-family: "fondfl";
+  line-height: 24px;
+  font-size: 18px;
+  padding: 10px 20px 20px 20px;
+  color: white;
+}
+
+#blog a {
+    font-family: "fondfl";
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.primer-parrafo {
+  padding: 0px 20px 20px 20px !important;
+
+}
+
+#blog h3{
+  margin-top: 190px;
+}
+/*Pie de página*/
+#piePag{
+ background-image: url(edf1.jpg);
+ text-align: center;
+ padding: 50px 0 50px 0;
+ margin-top: 150px;
+ background-size: 100% 100%;
+ background-attachment: fixed;
+}
+
+#piePag h3{
+  margin-top: 20px;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+#piePag a {
+  font-size: 40px;
+  color: #0AC4C4;
+  transition: 1s;
+}
+
+
+#piePag img{
+  width: 35px;
+  height: 35px;
+}
+
+#piePag img:hover{
+  color: #F9FAFC;
+  transition: 1s;
+  transform: scale(1.8);
+  display: inline-block;
+}
+
+
+/*Blog
+
+HTML
+
+<section id= "Blog">
+
+<div class="ContenedorBlog">
+  <h3> Blog </h3>
+  <div class="ContenedorPub">
+  <div class="publicación2">
+  <img src="">
+  <h5> Importancia de implementrar el lenguaje cinematográfico </h5>
+  <p class="ParrafoA"> Transmitir sensaciones a travez de las pantallas </p>
+  <a> Leer más <i class="fa-solid fa-arrow-right-from-bracket"></i> </a>
+  </div>
+
+  <div class="ContenedorPub">
+  <div class="publicación">
+  <img src="">
+  <h5> Importancia de implementrar el lenguaje cinematográfico </h5>
+  <p class="ParrafoB">Transmitir sensaciones a travez de las pantallas </p>
+  <a> Leer más <i class="fa-solid fa-arrow-right-from-bracket"></i> </a>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+
+CSS
+#Blog{
+  font-family: "fondfl";
+  background: #F9FAFC;
+  padding-bottom: 50px;
+}
+
+.ContenedorPub{
+  display: flex;
+  justify-content: space-around;
+}
+
+.publicacion{
+  width: 30%;
+  box-shadow: 1px 1px 14px #ccc;
+  padding bottom: 20px;
+}
+
+#Blog img{
+  width: 100%;
+}
+
+#Blog h5{
+  font-size: 20px;
+  margin: 0px;
+  padding: 20px;
+
+}
+
+#Blog p {
+  color: black;
+  line-height: 24px;
+  font-size: 19px;
+  padding: 10px 20px 20px 20px;
+}
+
+#Blog a {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.publicacion2{
+  height: 200px;
+}
+
+.ParrafoB{
+  padding: 0px 20px 20px 20px !important;
+  text-align: right;
+}
+*/
